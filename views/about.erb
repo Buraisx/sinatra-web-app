@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> About me</title>
+	</head>
+	<body>
+		<h1>About  ME</h1>
+		<h2>Skills</h2>
+		<ul>
+			<% @skills.each do |skill|%>
+				<li><%= skill%></li>
+			<%end%>
+		</ul>
+		<ul>
+			<% @interests.each do |interest|%>
+				<li><%= interest%></li>
+			<%end%>
+		</ul>
+	</body>
+</html>
